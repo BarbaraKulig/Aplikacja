@@ -10,6 +10,7 @@ COPY . /app
 # Zainstaluj Personal Assistant oraz zależności
 RUN pip install personal_assistant
 
+
 ENTRYPOINT ["python", "aplikacja.py"]
 
 # Określ, co ma być wykonywane po uruchomieniu kontenera
